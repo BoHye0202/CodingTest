@@ -1,0 +1,6 @@
+n = int(input())
+b = format(n, 'b')
+x = format(n, '0x')
+print('2 %s' %b)
+print('8 %0o' %n)
+print('16 %s' %x.upper())
