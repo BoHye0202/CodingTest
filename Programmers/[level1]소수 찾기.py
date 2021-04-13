@@ -12,7 +12,6 @@ def solution(n):
     for i in range(2,n):
         if isPrime(i)==True:
             answer+=1
-
     return answer
 
 solution(10)
